@@ -1,4 +1,4 @@
-package org.nansa.wynss.stash.doc;
+package tool.stash.doc;
 
 
 import com.fasterxml.jackson.annotation.JsonIgnore;

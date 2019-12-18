@@ -1,4 +1,4 @@
-package org.nansa.wynss.stash.img;
+package tool.stash.img;
 
 import net.coobird.thumbnailator.Thumbnails;
 import org.apache.commons.io.FilenameUtils;

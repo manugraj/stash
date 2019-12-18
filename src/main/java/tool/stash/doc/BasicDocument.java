@@ -1,4 +1,4 @@
-package org.nansa.wynss.stash.doc;
+package tool.stash.doc;
 
 import lombok.Data;
 import org.springframework.web.multipart.MultipartFile;

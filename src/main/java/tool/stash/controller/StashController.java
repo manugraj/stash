@@ -1,11 +1,11 @@
-package org.nansa.wynss.stash.controller;
+package tool.stash.controller;
 
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.apache.commons.io.IOUtils;
-import org.nansa.wynss.stash.doc.StashedDocument;
-import org.nansa.wynss.stash.img.ImgProcessUtil;
-import org.nansa.wynss.stash.service.StashService;
+import tool.stash.doc.StashedDocument;
+import tool.stash.img.ImgProcessUtil;
+import tool.stash.service.StashService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
 import org.springframework.util.StringUtils;

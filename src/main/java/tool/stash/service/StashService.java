@@ -1,10 +1,10 @@
-package org.nansa.wynss.stash.service;
+package tool.stash.service;
 
 import org.apache.commons.io.FilenameUtils;
-import org.nansa.wynss.stash.doc.StashedDocument;
-import org.nansa.wynss.stash.doc.StashedDocumentMetadata;
-import org.nansa.wynss.stash.store.StashDefaultStore;
-import org.nansa.wynss.stash.store.StashDefaultStoreManager;
+import tool.stash.doc.StashedDocument;
+import tool.stash.doc.StashedDocumentMetadata;
+import tool.stash.store.StashDefaultStore;
+import tool.stash.store.StashDefaultStoreManager;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;

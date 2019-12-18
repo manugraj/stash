@@ -1,6 +1,6 @@
-package org.nansa.wynss.stash.store;
+package tool.stash.store;
 
-import org.nansa.wynss.stash.doc.BasicDocument;
+import tool.stash.doc.BasicDocument;
 
 import java.io.File;
 import java.io.IOException;

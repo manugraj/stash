@@ -1,4 +1,4 @@
-package org.nansa.wynss.stash.swagger;
+package tool.stash.swagger;
 
 
 import org.springframework.context.annotation.Bean;
@@ -21,7 +21,7 @@ public class SwaggerConfig {
 	public Docket api() {
 		return new Docket(DocumentationType.SWAGGER_2)  
 		          .select()                                  
-		          .apis(RequestHandlerSelectors.basePackage("org.nansa.wynss.stash"))
+		          .apis(RequestHandlerSelectors.basePackage("tool.stash"))
 		          .paths(PathSelectors.any())  
 		          .build()
 		          .apiInfo(apiInfo());
@@ -30,11 +30,11 @@ public class SwaggerConfig {
 	private ApiInfo apiInfo() {
 	    
 		return new ApiInfo(
-	      "Wynss Stash API",
-	      "APIs for Wynss server-side", 
+	      "Stash API",
+	      "APIs for doc server",
 	      "API TOS", 
 	      "Terms of service",
-                new Contact("Nansa Technologies", "www.nansatechnologies.com", "info@nansatechnologies.com"),
+                new Contact("Company", "Url", "mail id"),
 	      "", "", Collections.emptyList());
 	}
 }

@@ -1,4 +1,4 @@
-package org.nansa.wynss.stash;
+package tool.stash;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
